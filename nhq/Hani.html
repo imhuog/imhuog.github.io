@@ -68,7 +68,7 @@
 	
 	function downloadLink()
     {
-		location.href = 'https://www.facebook.com/hiimhuog';
+		location.href = 'https://www.facebook.com/imhuog';
     }
 	
 	var count = 0;
@@ -86,12 +86,12 @@
 		}
 		if(next_bg >= 10) {
 			num_bg = num_bg + 1;
-			if(num_bg > 120) {
+			if(num_bg > 470) {
 				num_bg = 1;
 			}
 			document.body.style.backgroundImage = "url(css/bg/" + num_bg + ".jpg)";
 			preLoadbg = new Image();
-			if(num_bg == 120) {
+			if(num_bg == 470) {
 				preLoadbg.src = "css/bg/1.jpg";
 			} else {
 				preLoadbg.src = "css/bg/" + (num_bg + 1) + ".jpg";
