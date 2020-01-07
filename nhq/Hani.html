@@ -86,12 +86,12 @@
 		}
 		if(next_bg >= 10) {
 			num_bg = num_bg + 1;
-			if(num_bg > 470) {
+			if(num_bg > 450) {
 				num_bg = 1;
 			}
 			document.body.style.backgroundImage = "url(css/bg/" + num_bg + ".jpg)";
 			preLoadbg = new Image();
-			if(num_bg == 470) {
+			if(num_bg == 450) {
 				preLoadbg.src = "css/bg/1.jpg";
 			} else {
 				preLoadbg.src = "css/bg/" + (num_bg + 1) + ".jpg";
